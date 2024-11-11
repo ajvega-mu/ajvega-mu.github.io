@@ -50,6 +50,11 @@ a {
 
 }
 
+a:hover {
+    color: 'white';
+    text-shadow: 'white';
+}
+
 .content {
     display: flex;
     flex-flow: column wrap;
@@ -78,14 +83,12 @@ a {
     overflow: auto;
     flex-flow: row wrap;
     justify-content: center;
-    > img {
-        max-width: 50vh !important;
-    }
 }
 
 .art {
     flex-shrink: 1;
     flex-grow: 0;
+    height: 50vh;
 }
 
 .music {
