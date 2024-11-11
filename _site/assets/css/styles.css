@@ -69,9 +69,8 @@ a {
     height: 100%;
 }
 
-img {
-    max-height: 10vh;
-    flex-grow: 0;
+.scrnshot {
+    width: 45vw;
 }
 
 .artGal {
