@@ -105,3 +105,12 @@ a:hover {
 .music {
     overflow-y: visible;
 }
+
+#pat {
+    background: white;
+    color: black;
+    height: 100vh;
+}
+#ascii {
+    font-size: 0.5%;
+}
