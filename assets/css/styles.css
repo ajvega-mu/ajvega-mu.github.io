@@ -23,11 +23,6 @@ body {
     overflow-x: hidden;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(220, 220, 180);
-}
-
 .main {
     display: flex;
     flex-flow: column nowrap;
@@ -44,6 +39,11 @@ a {
     height: 4vh;
 }
 
+.navLink {
+    text-decoration: none;
+    color: rgb(220, 220, 180);
+}
+
 .navLink:hover {
     border-bottom: 2px solid rgb(220, 220, 180);
     border-top: 2px solid rgb(220, 220, 180);
@@ -53,6 +53,17 @@ a {
 a:hover {
     color: 'white';
     text-shadow: 'white';
+}
+
+.projLink {
+    color: rgb(224, 138, 250);
+    text-decoration: none;
+}
+
+.projLink:hover {
+    filter: hue-rotate(90deg);
+    transform: scale(1.1);
+    transition: filter 2s, transform 1s;
 }
 
 .content {
