@@ -107,6 +107,8 @@ a:hover {
 }
 
 #pat {
+    display: flex;
+    justify-content: center;
     background: white;
     color: black;
     height: 95vh;
